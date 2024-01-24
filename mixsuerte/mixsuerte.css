@@ -1,0 +1,174 @@
+body{
+    background-size: cover;
+    padding: 90px 0px 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(88, 6, 132);
+}
+.logo{
+    width: 30%;
+    padding-left: 20px;
+}
+.menu1{ 
+display: flex;
+justify-content: space-between;
+max-width: 100%;
+margin-bottom: 5px;
+}
+.navlink{
+    color: white;
+    text-decoration: none; 
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 14px;
+    margin: 0 10px;
+    line-height: 85px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    width: max-content;
+}
+.navlink{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.navlink:hover{
+background-color: darkorchid;
+transition: 0.5s;
+}
+
+   footer{
+    
+    float: left;
+    display: block;
+    margin-left: 150px;
+    margin-top: 70px;
+    
+   }
+   .menu2{ 
+    display: flex;
+    justify-content: center;
+    }
+   .nav-footer{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none; 
+    list-style-type: none;
+    float: left;
+    
+
+   }
+   .item{
+    text-transform: uppercase;
+    color: yellow;
+    font-weight: 600;
+    text-decoration: none; 
+    list-style-type: none;
+   }
+   .empresas{
+    justify-content: center;
+    display: flex;
+    margin-left: 350px;
+    
+   }
+   li{
+    text-decoration: none; 
+    list-style-type: none;
+   }
+   .empresas img{
+    width: 50%;
+   }
+   .contenedor-primero{
+    width:80%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin: auto;
+    display: block;
+
+   }
+   .logo1{
+    width: 40%;
+    float: left;
+
+   }
+   .logo1 img{
+    width: 100%;
+   }
+   .texto1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+   }
+   .video1{
+    margin: auto;
+    display: block;
+   }
+   .video1 iframe{
+    margin: auto;
+    display: block;
+
+   }
+   .contenedor-segundo{
+    width:80%;
+    padding-top: 40px;
+    padding-bottom: 200px;
+    margin: auto;
+    display: block;
+
+   }
+   .juegocarton{
+   float: left;
+   }
+   .planpremios{
+   float:right;
+
+   }
+   .subtitulo{
+    width: 50%;
+    padding: 2px;
+    display: block;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-left: 115px; 
+    background-color: yellow;
+    border-color: red; 
+   }
+   h4{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(83, 2, 96);
+    text-align: center;
+
+   }
+   .cartones{
+    margin-top: 100px;
+    border-top: 20px;
+   }
+   table{
+    border-collapse:collapse ;
+   }
+   th, td{
+    border-style: ridge;
+    padding: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight:bolder;
+   }
+   tr>th{
+    background-color:#3A0D8E ;
+   }
+   tbody>tr:hover{
+    background-color: aliceblue;
+    opacity: 0.75;
+
+   }
+   td{
+    color:#320653;
+   }

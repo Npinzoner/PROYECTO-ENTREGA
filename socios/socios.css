@@ -1,0 +1,114 @@
+body{
+    background-size: cover;
+    padding: 90px 0px 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(88, 6, 132);
+}
+.logo{
+    width: 30%;
+    padding-left: 20px;
+}
+.menu1{ 
+display: flex;
+justify-content: space-between;
+max-width: 100%;
+margin-bottom: 5px;
+}
+.navlink{
+    color: white;
+    text-decoration: none; 
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 14px;
+    margin: 0 10px;
+    line-height: 85px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    width: max-content;S
+}
+.navlink{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.navlink:hover{
+background-color: darkorchid;
+transition: 0.5s;
+}
+.contenedor1{
+    padding-top: 80px;
+}
+.card{
+    width:40%;
+    height:200px;
+    margin-top:6%;
+    margin-left:5%;
+    float:left;
+    box-shadow:3px 3px 3px 3px #676567cc;
+    background-color: rgb(81, 5, 76);
+    color: blue;
+}
+
+.card-text{
+padding: 5px;
+text-align: justify;
+}
+
+.imagen{
+width: 128px;
+justify-content: center;
+margin: auto;
+padding-top: 20px;
+
+}
+footer{
+margin-top: 550px;
+}
+
+.menu2{ 
+ display: flex;
+justify-content: center;
+}
+
+.nav-footer{
+font-family: 'Montserrat', sans-serif;
+color: white;
+text-decoration: none; 
+list-style-type: none;
+float: left;
+margin-left: 40px;
+}
+
+.item{
+text-transform: uppercase;
+color: yellow;
+font-weight: 600;
+text-decoration: none; 
+list-style-type: none;
+}
+
+.empresas{
+ justify-content: center;
+display: flex;
+margin-left: 450px;
+
+ }
+   
+li{
+text-decoration: none; 
+list-style-type: none;
+ }
+
+.empresas img{
+width: 50%;
+}
+   
