@@ -12,7 +12,7 @@ function validarFormulario() {
 
     const correoRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!correoRegex.test(correo)) {
-        document.getElementById("errorCorreo").innerHTML = "Ingrese un correo electrónico válido.";
+        alert ('Ingrese todos los campos');
         return false;
     }
 
