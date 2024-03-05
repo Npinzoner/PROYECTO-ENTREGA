@@ -46,33 +46,30 @@ margin-bottom: 5px;
 }
 .contenedor1{
     width:70%;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 200px;
     justify-content: center;
 }
 .formulario{
     float: left;
-    width: 55%;
+    width: 50%;
     }
 .mapa{
     float:right;
     width: 30%
     }
 .contacto1{
-    width: 35%;
+    width: 30%;
     height: 50px;
     background-color: yellow;
-    border-color: red;
-    padding: auto;
-    display: block;
-    justify-content: center;
-    margin: auto;
     color:rgb(77, 6, 99) ;
     text-align: center;
-    margin-bottom: 15px;
+    margin-top: 60px;
+    margin-left: 200px;
 } 
 .contacto2{
-    width:45;
+    width:70% ;
+    margin-left: 180px;
     height: 50px;
     background-color: yellow;
     border-color: red;
@@ -81,6 +78,7 @@ margin-bottom: 5px;
     justify-content: center;
     color:rgb(77, 6, 99) ;
     text-align: center;
+    margin-top: 15px;
     margin-bottom: 15px;
 } 
 .contactotexto{

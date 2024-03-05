@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./contacto.css">
-   <link rel="stylesheet" href="./sidebar.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
@@ -22,32 +21,45 @@
     <ul class="nav-menu">
         <li class="nav-menu-item"> <a href=" ../../PROYECTO-ENTREGA/index/index.html" class="navlink">inicio</a></li>
         <li  class="nav-menu-item"><a href=" ../../PROYECTO-ENTREGA/index/index.html #nuestrosjuegos" class="navlink">nuestros juegos</a></li>
-        <li  class="nav-menu-item"> <a href="../socios/socios.html" class="navlink">donde jugar </a></li>
+        <li  class="nav-menu-item"> <a href="../jugar/jugar.html" class="navlink">donde jugar </a></li>
         <li  class="nav-menu-item"> <a href="" class="navlink">tiquetes no participantes</a></li>
         <li class="nav-menu-item"> <a href="" class="navlink">blog </a></li>
-        <li  class="nav-menu-item"> <a href="" class="navlink">quienes somos </a></li>
+        <li  class="nav-menu-item"> <a href="../socios/socios.html" class="navlink">quienes somos </a></li>
         <li  class="nav-menu-item"> <a href="../../PROYECTO-ENTREGA/contacto/contacto.html" class="navlink">contacto</a></li>
 
     </ul>
  </nav>
 </header>
 <section class="contenedor1">
+    <div class="contacto1">
+        <h4 class="contactotexto">CONTÁCTANOS</h4>
+    </div>
     <div class="formulario">
-    <form action="">
-        <div class="contacto1">
-            <h4 class="contactotexto">CONTÁCTANOS</h4>
-        </div>
-        <input type="text"placeholder="Escriba su nombre">
-        <input type="email"placeholder="Escriba su correo electrónico">
-        <input type="text"placeholder="Escriba su número de contacto">
-        <textarea name="" id="" cols="30" rows="10" maxlength="500"></textarea>
-        <input type="file" >
-        <div class="autorizardatos">
-            <input type="checkbox" name="">
-            <label for="autorizo">Autorizo el tratamiento de mis datos.</label>
-          </div>
-        <button type="submit" data-bs-toggle="modal" data-bs-target="#examplemodal">Enviar</button>
-    </form>
+
+        <form id="Formulario" onsubmit="return validarFormulario()">
+            <label for="nombre"></label>
+            <input type="text"  placeholder="Escriba su nombre completo"id="nombre" name="nombre">
+            <span id="errorNombre" class="error"></span><br>
+    
+            <label for="correo"></label>
+            <input type="text" placeholder="Escriba su correo electrónico" id="correo" name="correo">
+            <span id="errorCorreo" class="error"></span><br>
+    
+            <label for="telefono"></label>
+            <input type="text" placeholder="Escriba su número de contacto" id="telefono" name="telefono">
+            <span id="errorTelefono" class="error"></span><br>
+    
+            <label for="texto"></label>
+            <textarea id="texto"placeholder="Escriba su comentario" name="texto"></textarea>
+            <span id="errorTexto" class="error"></span><br>
+    
+            <label>
+                <input type="checkbox" id="acepto" name="acepto"> Acepto política de datos
+            </label>
+            <span id="errorAcepto" class="error"></span><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
    </div>
    <div class="mapa">
     <div class="contacto2">
@@ -85,5 +97,6 @@
    <a href="https://www.pagatodo.com.co/raspatodo.php"><img src="../../PROYECTO-ENTREGA/assets/imagenes/footer.png" alt="logo raspa todo"></a>
 </div>
  </footer>
+ <script src="contacto4.js"></script>
 </body>
 </html>
