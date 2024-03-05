@@ -1,0 +1,131 @@
+body{
+    background-size: cover;
+    padding: 90px 0px 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(88, 6, 132);
+}
+.logo{
+    width: 30%;
+    padding-left: 20px;
+}
+.menu1{ 
+display: flex;
+justify-content: space-between;
+max-width: 100%;
+margin-bottom: 5px;
+}
+.navlink{
+    color: white;
+    text-decoration: none; 
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 14px;
+    margin: 0 10px;
+    line-height: 85px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    width: max-content;S
+}
+.navlink{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.navlink:hover{
+background-color: darkorchid;
+transition: 0.5s;
+}
+.contenedor1{
+    padding-top: 80px;
+}
+
+footer{
+margin-top: 550px;
+}
+
+.menu2{ 
+ display: flex;
+justify-content: center;
+}
+
+#informacionJuegos{
+font-family: 'Montserrat', sans-serif;
+color: white;
+width: 80%;
+justify-content: center;
+margin-top: 5%;
+margin-left: 10%;
+}
+
+.contenedor{
+    width:100%;
+   justify-content: center;
+
+}
+h1{
+    color: rgb(85, 6, 99);
+    text-transform: uppercase;
+    background-color: yellow;
+    font-size: 22 px;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.titulo{
+    color: yellow;
+    font-size:18px;
+    background-color: rgb(57, 12, 99);
+    width: 15% ;
+    text-transform: uppercase;
+}
+
+h3{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    }
+
+
+.nav-footer{
+font-family: 'Montserrat', sans-serif;
+color: white;
+text-decoration: none; 
+list-style-type: none;
+float: left;
+margin-left: 40px;
+}
+
+.item{
+text-transform: uppercase;
+color: yellow;
+font-weight: 600;
+text-decoration: none; 
+list-style-type: none;
+}
+
+.empresas{
+ justify-content: center;
+display: flex;
+margin-left: 450px;
+
+ }
+   
+li{
+text-decoration: none; 
+list-style-type: none;
+ }
+
+.empresas img{
+width: 50%;
+}
